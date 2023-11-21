@@ -17,24 +17,25 @@ const CatePage = () => {
                     <div className="p-5 ">
                         <Link to={`/cate/OS`}>
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                OS
+                                Jarabes
                             </h5>
                         </Link>
                     </div>
                 </div>
 
                 <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                        <Link to={`/cate/Keyboards`}>
-                        <img
-                            className="rounded-t-lg"
-                    src="/static/logo.png"
-                            alt=""
-                        />
+                        <Link to={`/cate/Libros`}>
+<img
+    className="rounded-t-lg w-16 h-16 mx-auto p-2"
+    src="https://cdn-icons-png.flaticon.com/128/2702/2702162.png"
+    alt="carga de imagen"
+/>
+
                     </Link>
                     <div className="p-5 ">
-                        <Link to={`/cate/Keyboards`}>
+                        <Link to={`/cate/Libros`}>
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                Keyboards
+                                Libros
                             </h5>
                         </Link>
                     </div>
@@ -45,13 +46,13 @@ const CatePage = () => {
                         <img
                             className="rounded-t-lg"
                     src="/static/logo.png"
-                            alt=""
+                            alt="carga de imagen"
                         />
                     </Link>
                     <div className="p-5 ">
-                        <Link to={`/cate/Lang`}>
+                        <Link to={`/cate/`}>
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                Lang
+                                Cremas
                             </h5>
                         </Link>
                     </div>

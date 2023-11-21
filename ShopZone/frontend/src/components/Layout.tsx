@@ -3,17 +3,15 @@ import Header from './Header';
 import { Toaster } from 'react-hot-toast';
 
 const Layout = () => {
-
-
   return (
-      <div>
-          <Toaster />
-          <Header />
-        <div className="min-h-[1000px] bg-white dark:bg-gray-900">
-            <Outlet />
-        </div>
+    <div className="h-screen w-screen">
+      <Toaster />
+      <Header />
+      <div className="aqui h-full w-full bg-cover bg-center bg-fixed" style={{ backgroundImage: "url('https://png.pngtree.com/background/20210715/original/pngtree-quiet-beautiful-gold-leaf-plant-green-yellow-white-natural-background-picture-image_1284095.jpg')" }}>
+        <Outlet />
       </div>
-  )
-}
+    </div>
+  );
+};
 
-export default Layout
+export default Layout;

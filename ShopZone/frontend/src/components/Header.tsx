@@ -90,24 +90,30 @@ const Header = () => {
                           to={'/cate'}
                           className='text-black p-2 px-4 rounded-lg hover:bg-slate-400 dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-white'
                         >
-                          Categories
+                          Categorias
                         </Link>
                       </>
 
                     ) : (
                         <>
+                         <Link
+                          to={'#'}
+                          className='bg-green-300 p-2 px-4 rounded-lg text-black dark:bg-gray-900 dark:text-white' 
+                        >
+                          Home(principal)
+                        </Link>
                           <Link
                             to={'/login'}
-                            className='bg-slate-400 p-2 px-4 rounded-lg text-black dark:bg-gray-900 dark:text-white' 
+                            className='text-black p-2 px-4 rounded-lg hover:bg-green-300 dark:text-gray-300 dark:hover:bg-green-300 dark:hover:text-black' 
                           >
-                            Log in
+                            Inicia sesion
                           </Link>
 
                           <Link
                             to={'/register'}
-                            className='text-black p-2 px-4 rounded-lg hover:bg-slate-400 dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-white'
+                            className='text-black p-2 px-4 rounded-lg hover:bg-green-300 dark:text-gray-300 dark:hover:bg-green-300 dark:hover:text-black'
                           >
-                            Sign up
+                            Registrate
                           </Link>
                         </>
                       )}
